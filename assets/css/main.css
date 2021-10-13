@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6rem;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: #fff;
+}
+header{
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 62px;
+}
+.nav {
+    min-height: 54px;
+}
+.nav-list li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.nav-list a {
+    color: #21243D;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-list a:hover{
+    opacity: 0.8;
+}
+.nav-text a{
+    color: #FF6464;
+}
+.nav-text:hover{
+    opacity: 0.8;
+    font-weight: bold;
+}
+.container{
+    display: block;
+    margin: 0 236px;
+}
+.container h1 {
+    font-size: 3.4rem;
+    width: 506px;
+    line-height: 4.6rem;
+    color: #21243D;
+}
+.container-layout{
+    display: flex;
+}
+.container-layout--btn button {
+    color: #fff;
+    background-color: #FF7C7C;
+    border: none;
+    border-radius: 100px;
+    margin-right: 18px;
+}
+.container-layout--btn button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.container-layout p{
+    font-size: 2rem;
+    margin-top: 0;
+    color: #21243D;
+}
+.container p{
+    width: 900px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #000000;
+}
+.container img,
+.feature img,
+.box img{
+    width: 1000px;
+    height: 600px;
+    transition: right linear 0.1s;
+}
+.container img:hover{
+    cursor: pointer;
+    transition: right linear 0.1s;
+    font-weight: bold;
+}
+.feature{
+    display: block;
+    margin: 0 236px;
+}
+.feature h1{
+    font-size: 3rem;
+    color: #21243D;
+}
+.feature h2{
+    font-size: 2.4rem;
+    color: #21243D
+}
+.feature p {
+    width: 678px;
+    color: #000000;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+.box{
+    display: block;
+    margin: 0 236px;
+    margin-top: 28px;
+}
+footer{
+    height: 182px;
+}
+.footer-items{
+    text-align: center;
+    padding: 100px 0;
+}
+.footer-icon{
+    display: block;
+}
+.icon {
+    list-style: none;
+    margin-top: 16px; 
+    color: #21243D;
+}
+.icon__link{
+    margin: 0 16px;
+    font-size: 4.6rem;
+}
+.footer__items p {
+    font-size: 1.6rem;
+    margin-right: -18px;
+    margin-top: 32px;
+}
+.icon__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: bold;
+}
+.footer-items p{
+    font-size: 1.4rem;
+    color: #21243D;
+    margin-top: 24px;
+}
